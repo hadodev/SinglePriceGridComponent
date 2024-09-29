@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repository solution URL here](https://github.com/hadodev/SinglePriceGridComponent)
-- Live Site URL: [Live site URL here](https://hadodev-fem-articlepreviewcomponent.netlify.app)
+- Solution URL: [Github repository solution](https://github.com/hadodev/SinglePriceGridComponent)
+- Live Site URL: [Deployed in Github Pages](https://hadodev.github.io/SinglePriceGridComponent/)
 
 ## My process
 
