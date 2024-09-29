@@ -1,54 +1,58 @@
-# Astro Starter Kit: Basics
+# Frontend Mentor - Single price grid component solution
 
-```sh
-npm create astro@latest -- --template basics
-```
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Table of contents
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Overview
 
-## 🚀 Project Structure
+### The challenge
 
-Inside of your Astro project, you'll see the following folders and files:
+Users should be able to:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- View the optimal layout for the component depending on their device's screen size
+- See a hover state on desktop for the Sign Up call-to-action
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Screenshot
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+#### Desktop
 
-Any static assets, like images, can be placed in the `public/` directory.
+![](./design/desktop-design.png)
 
-## 🧞 Commands
+#### Mobile
 
-All commands are run from the root of the project, from a terminal:
+![](./design/mobile-design.png)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Links
 
-## 👀 Want to learn more?
+- Solution URL: [Github repository solution URL here](https://github.com/hadodev/SinglePriceGridComponent)
+- Live Site URL: [Live site URL here](https://hadodev-fem-articlepreviewcomponent.netlify.app)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Astro](https://astro.build/) - The web framework for content-driven websites
+
+## Author
+
+- GitHub - [Hado Dev](https://github.com/hadodev)
+- Frontend Mentor - [@hadodev](https://www.frontendmentor.io/profile/hadodev)
+
+## Acknowledgments
+
+For all authors who publish open source ressources and contents freely available and make Internet more awesome.
