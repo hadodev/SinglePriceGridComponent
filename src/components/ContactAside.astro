@@ -1,0 +1,107 @@
+<aside class="contact">
+  <a href="https://www.frontendmentor.io/" target="_blank" rel="noopener noreferrer">
+    <img src="/public/assets/images/contact/frontend-mentor-logo.png" alt="Frontend Mentor logo" />
+    <span>Challenge by Fronted Mentor</span>
+  </a>
+  <a href="https://www.frontendmentor.io/profile/hadodev" target="_blank" rel="noopener noreferrer">
+    <img src="/public/assets/images/contact/HadoDev-square-black-blue.png" alt="Hado Dev logo" />
+    <span>Coded by HaDo Dev</span>
+  </a>
+  <a href="https://github.com/hadodev" target="_blank" rel="noopener noreferrer">
+    <img src="/public/assets/images/contact/github-logo-72.png" alt="github logo" />
+    <span>HaDo Dev github profile</span>
+  </a>
+  <a href="mailto:hado.dev.app@gmail.com">
+    <img src="/public/assets/images/contact/gmail-logo-72.png" alt="mail" />
+    <span>HaDo Dev gmail</span>
+  </a>
+</aside>
+
+<style>
+  .contact {
+    position: fixed;
+    top: 50%;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+
+    background: transparent;
+    transform: translateY(-50%);
+    place-content: center;
+
+    a {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+
+      font-size: 0.8rem;
+      font-family: "Oswald", sans-serif;
+      text-align: left;
+      text-decoration: none;
+
+      transform: translate(160px, 0px);
+
+      transition: all 0.8s;
+
+      span {
+        display: block;
+
+        color: #fff;
+        text-align: center;
+      }
+
+      &:hover,
+      &:focus,
+      &:focus-visible {
+        color: #fff;
+
+        transform: translate(0px, 0px) !important;
+
+        img {
+          transform: rotate(360deg);
+        }
+      }
+
+      &:nth-of-type(1) {
+        background: #49b7d0;
+      }
+      &:nth-of-type(3) {
+        background: #000;
+      }
+      &:nth-of-type(2) {
+        background: #3f54a3;
+      }
+
+      &:nth-of-type(4) {
+        background: #c5221f;
+      }
+
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        padding: 2px;
+
+        color: #000;
+        line-height: 40px;
+        text-align: center;
+
+        background-color: #fff;
+        border-radius: 50%;
+
+        transition: all 0.5s;
+      }
+    }
+
+    img {
+      width: 32px;
+    }
+    @media (max-width: 670px) {
+      a {
+        transform: translate(210px, 0px) !important;
+      }
+    }
+  }
+</style>

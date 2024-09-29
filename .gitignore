@@ -22,3 +22,12 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Avoid local files and directories
+.astro/
+.vscode/
+node_modules/
+fem_files/
+.gitignore
+.prettierignore
+.prettierrc
